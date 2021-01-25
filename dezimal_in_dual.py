@@ -8,9 +8,8 @@ dual = ""
 zahl = int(input("Geben Sie den Wert ein, der umgerechnet werden soll: "))
 
 while zahl != 0:
-    zwischenergebnis = zahl // 2
     dual = str(zahl % 2) + dual
-    zahl = zwischenergebnis
+    zahl = zahl // 2
 print(dual)
 
 
